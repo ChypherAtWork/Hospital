@@ -1,0 +1,269 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <title>eDoc</title>
+    <style>
+        table{
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+    </style>
+        
+</head>
+<body>
+    
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <font class="edoc-logo">eDoc. </font>
+                    <font class="edoc-logo-sub">| THE ECHANNELING PROJECT</font>
+                </td>
+                <td width="10%">
+                   <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
+                </td>
+                <td  width="10%">
+                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td  colspan="3">
+                    <p class="heading-text">Avoid Hassles & Delays.</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p class="sub-text2">How is health today, Sounds like not good!<br>Don't worry. Find your doctor online Book as you wish with eDoc. <br>
+                    We offer you a free doctor channeling service, Make your appointment now.</p>
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="3">
+                    <center>
+                    <a href="login.php" >
+                        <input type="button" value="Make Appointment" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                    </a>
+                </center>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="3">
+                   
+                </td>
+            </tr>
+        </table>
+        <p class="sub-text2 footer-hashen">A Web Solution by Hashen.</p>
+    </center>
+    
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+        background: linear-gradient(to bottom, #f8f9fa, #cfd9df);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      background-color: #007bff;
+      border-bottom: 2px solid #0056b3;
+      box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        color: #fff;
+      font-weight: bold;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    .header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 2px solid #0056b3;
+    }
+
+    .container {
+      margin-top: 30px;
+    }
+
+    .jumbotron {
+      background: url('https://images.rawpixel.com/image_1100/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yNV9zaW1wbGVfM2RfaWxsdXN0cmF0aW9uX29mX2FfcmVjb3Zlcnlfcm9vbV93aV80ZjhkNDIwNC02N2I4LTQwMDQtYTBlNy05YjljMjIyMzE2ZGVfMS5qcGc.jpg') center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+      margin-bottom: 0;
+    }
+
+    .features {
+      margin-top: 50px;
+    }
+
+    .feature-box {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .feature-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .additional-content {
+      margin-top: 50px;
+    }
+
+    .additional-section {
+      margin-bottom: 40px;
+    }
+
+    .additional-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Hospital System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.php">Signup</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header">
+    <h1>Welcome to Our Hospital</h1>
+    <p>Providing quality healthcare with compassion and commitment</p>
+  </div>
+
+  <div class="container-fluid mt-2">
+    <div class="jumbotron text-dark">
+      <h2>Featured Services</h2>
+      <p>Explore our comprehensive healthcare services designed to meet your needs.</p>
+    </div>
+
+    <div class="row features">
+      <div class="col-md-4">
+        <div class="feature-box">
+          <img src="https://images.rawpixel.com/image_1100/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1LzM0MC1mZWxpeDEyNzdfMS5qcGc.jpg" alt="Appointment Scheduling">
+            <br />
+            <h3>Appointment Schedule</h3>
+          <p>Book your appointments online and manage your schedule effortlessly.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box">
+          <img src="https://images.rawpixel.com/image_1100/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvMzQwLWZlbGl4MDQ5OS1yb2IuanBn.jpg" alt="Medical Records">
+          <h3>Medical Records</h3>
+          <p>Access and manage your medical records securely from anywhere.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box">
+          <img src="https://images.unsplash.com/photo-1587351021766-957e6e0efb66?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Emergency Services">
+          <h3>Emergency Services</h3>
+          <p>24/7 emergency services to ensure your health and safety.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="additional-content">
+        <div class="additional-section">
+          <h2>About Us</h2>
+          <img src="https://images.rawpixel.com/image_1100/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1LzM0MC1mZWxpeDEyNzdfMS5qcGc.jpg" alt="About Us">
+          <p class="text-justify h6">Learn more about our hospital's mission, values, and commitment to healthcare excellence. Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam numquam molestiae cupiditate ea, voluptatum reprehenderit, enim perferendis labore natus rem deserunt in facere. Velit consequuntur assumenda nemo facilis ut, quo odit tenetur reiciendis optio a, quos dolore recusandae vero?</p>
+        </div>
+  
+        <div class="additional-section">
+          <h2>Our Team</h2>
+          <img src="https://images.rawpixel.com/image_1100/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNF9waG90b19vZl9hX21pZGRsZV9hZ2VfZGl2ZXJzZV9wcm9mZXNzaW9uYWxfbWFzc19mYTBhOGJhYS1iYjNlLTQ1YmUtOGU4Mi0xNWZkYzUyMGI4Y2JfMS5qcGc.jpg" alt="Our Team">
+          <p>Meet the dedicated professionals who form the backbone of our healthcare services.</p>
+        </div>
+  
+        <div class="additional-section">
+          <h2>Contact Us</h2>
+          <img src="https://images.rawpixel.com/image_1100/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvNDQxLXRlZC0yMzU3LXRlZGR5LmpwZw.jpg" alt="Contact Us">
+          <p>Reach out to us for any inquiries or to schedule an appointment. We're here to help!</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

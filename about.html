@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Hospital Management System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      background-color: #007bff;
+      border-bottom: 2px solid #0056b3;
+      box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    .header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 2px solid #0056b3;
+    }
+
+    .container {
+      margin-top: 30px;
+    }
+
+    .page-content {
+      margin-top: 50px;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-content h2 {
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    .page-content p {
+      color: #545454;
+      line-height: 1.8;
+    }
+
+    .page-content ul {
+      color: #545454;
+      list-style: none;
+      padding: 0;
+    }
+
+    .page-content ul li:before {
+      content: "\2022";
+      color: #007bff;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    .page-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      border-top: 2px solid #292b2c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Hospital System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.php">Signup</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header">
+    <h1>About Us</h1>
+    <p>Learn more about our hospital's mission, values, and commitment to healthcare excellence.</p>
+  </div>
+
+  <div class="container">
+    <div class="page-content">
+      <section>
+        <h2>Our Mission</h2>
+        <p>We are committed to providing exceptional and compassionate healthcare services to our community. Our
+          mission is to improve the health and well-being of individuals and families by delivering quality care with
+          integrity and respect.</p>
+      </section>
+
+      <section>
+        <h2>Our Values</h2>
+        <p>Our core values guide our actions and decisions in delivering patient-centered care:</p>
+        <ul>
+          <li><strong>Integrity:</strong> We uphold the highest standards of honesty and ethical behavior.</li>
+          <li><strong>Compassion:</strong> We approach every patient with empathy and understanding.</li>
+          <li><strong>Excellence:</strong> We strive for excellence in all aspects of healthcare delivery.</li>
+          <li><strong>Teamwork:</strong> We collaborate and work together to achieve the best outcomes for our
+            patients.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>History</h2>
+        <p>Founded in 1990, our hospital has a rich history of providing quality healthcare to the community. Over the
+          years, we have expanded our services and facilities to meet the growing needs of our patients.</p>
+      </section>
+
+      <section>
+        <h2>Facilities</h2>
+        <p>Our hospital is equipped with state-of-the-art facilities, including:</p>
+        <ul>
+          <li>Modern operating theaters with advanced surgical equipment.</li>
+          <li>Comprehensive diagnostic imaging services.</li>
+          <li>Specialized clinics for various medical disciplines.</li>
+          <li>Emergency department providing 24/7 urgent care.</li>
+        </ul>
+        <p>We continually invest in technology and staff training to ensure the highest quality of care for our
+          patients.</p>
+      </section>
+
+      <img src="https://placeimg.com/1200/600/tech" alt="Hospital Image 1">
+      <img src="https://placeimg.com/1200/600/people" alt="Hospital Image 2">
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
